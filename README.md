@@ -19,14 +19,19 @@ Prerequisites
 	•	MySQL or any other supported database
 
 Steps
+
     1.  Install dependencies:
             composer install
+
     2.  Set up the environment file:
             cp .env.example .env
+
     3.  Generate application key:
             php artisan key:generate
+
     4. Run database migrations and seeders:
             php artisan migrate --seed
+
     5. Start the development server:
             php artisan serve
 
